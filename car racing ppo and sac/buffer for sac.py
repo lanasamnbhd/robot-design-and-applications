@@ -66,4 +66,4 @@ class ReplayBuffer():
     
 
     def index(self, x, inds):
-        return x[inds] if x.ndim==1 else x[inds, :]
+        return x[inds] if x.ndim==1 else x[inds, :] 
