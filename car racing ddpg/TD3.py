@@ -8,8 +8,6 @@ import math
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Implementation of Twin Delayed Deep Deterministic Policy Gradients (TD3)
-# Paper: https://arxiv.org/abs/1802.09477
 
 feat_size = 1
 latent_dim = 512
