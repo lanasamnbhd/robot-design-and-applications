@@ -3,10 +3,7 @@ import visdom
 import torch
 import torch.nn as nn
 
-# Code based on: 
-# https://github.com/openai/baselines/blob/master/baselines/deepq/replay_buffer.py
 
-# Expects tuples of (state, next_state, action, reward, done)
 class ReplayBuffer(object):
 	def __init__(self, max_size=1e6):
 		self.storage = []
