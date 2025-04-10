@@ -6,7 +6,7 @@ import scipy.signal
 from gym import wrappers
 from datetime import datetime
 from time import time
-from utils import RunningStats, discount, add_histogram
+from utils import RunningStats, discount, add_
 OUTPUT_RESULTS_DIR = "./"
 
 EP_MAX = 5000
